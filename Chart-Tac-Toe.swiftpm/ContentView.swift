@@ -19,8 +19,8 @@ struct ContentView: View {
       Chart {
         ForEach(game.moves) { move in
           PointMark(
-            x: .value("Column", move.x),
-            y: .value("Row", move.y)
+            x: .value("Column", Double(move.x) - 0.5),
+            y: .value("Row", Double(move.y) - 0.5)
           )
           .foregroundStyle(by: .value("Player", move.player.localizedDescription))
           .symbol(by: .value("Player", move.player.localizedDescription))
@@ -30,8 +30,6 @@ struct ContentView: View {
             width: (geometry.size.width - 3 * lineWidth) / 3 * 0.8,
             height: (geometry.size.height - 3 * lineWidth) / 3 * 0.8)
           )
-          .offset(x: -geometry.size.width / 6,
-                  y: geometry.size.height / 6)
         }
       }
       .chartSymbolScale([
