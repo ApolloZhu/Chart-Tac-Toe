@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2B19DE928DE992F00259187 /* ChartTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B19DE828DE992F00259187 /* ChartTacToeApp.swift */; };
-		D2B19DEB28DE992F00259187 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B19DEA28DE992F00259187 /* ContentView.swift */; };
+		D2636AE428FFD8EA009014EE /* ChartTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636ADE28FFD8EA009014EE /* ChartTacToeApp.swift */; };
+		D2636AE528FFD8EA009014EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636ADF28FFD8EA009014EE /* ContentView.swift */; };
+		D2636AE628FFD8EA009014EE /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE028FFD8EA009014EE /* TicTacToe.swift */; };
+		D2636AE728FFD8EA009014EE /* XMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE128FFD8EA009014EE /* XMark.swift */; };
+		D2636AE828FFD8EA009014EE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE228FFD8EA009014EE /* Player.swift */; };
+		D2636AE928FFD8EA009014EE /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE328FFD8EA009014EE /* Move.swift */; };
 		D2B19DED28DE993000259187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B19DEC28DE993000259187 /* Assets.xcassets */; };
 		D2B19DF128DE993000259187 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B19DF028DE993000259187 /* Preview Assets.xcassets */; };
-		D2B19DFB28DE99D500259187 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B19DF728DE99D400259187 /* Move.swift */; };
-		D2B19DFC28DE99D500259187 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B19DF828DE99D500259187 /* Player.swift */; };
-		D2B19DFD28DE99D500259187 /* XMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B19DF928DE99D500259187 /* XMark.swift */; };
-		D2B19DFE28DE99D500259187 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B19DFA28DE99D500259187 /* TicTacToe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D2B19DE528DE992F00259187 /* Chart Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B19DE828DE992F00259187 /* ChartTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTacToeApp.swift; sourceTree = "<group>"; };
-		D2B19DEA28DE992F00259187 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2636ADE28FFD8EA009014EE /* ChartTacToeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartTacToeApp.swift; path = "Chart-Tac-Toe.swiftpm/ChartTacToeApp.swift"; sourceTree = SOURCE_ROOT; };
+		D2636ADF28FFD8EA009014EE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Chart-Tac-Toe.swiftpm/ContentView.swift"; sourceTree = SOURCE_ROOT; };
+		D2636AE028FFD8EA009014EE /* TicTacToe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TicTacToe.swift; path = "Chart-Tac-Toe.swiftpm/TicTacToe.swift"; sourceTree = SOURCE_ROOT; };
+		D2636AE128FFD8EA009014EE /* XMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XMark.swift; path = "Chart-Tac-Toe.swiftpm/XMark.swift"; sourceTree = SOURCE_ROOT; };
+		D2636AE228FFD8EA009014EE /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "Chart-Tac-Toe.swiftpm/Player.swift"; sourceTree = SOURCE_ROOT; };
+		D2636AE328FFD8EA009014EE /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Move.swift; path = "Chart-Tac-Toe.swiftpm/Move.swift"; sourceTree = SOURCE_ROOT; };
+		D2B19DE528DE992F00259187 /* Chart-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B19DEC28DE993000259187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B19DEE28DE993000259187 /* ChartTacToe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChartTacToe.entitlements; sourceTree = "<group>"; };
 		D2B19DF028DE993000259187 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D2B19DF728DE99D400259187 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
-		D2B19DF828DE99D500259187 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		D2B19DF928DE99D500259187 /* XMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMark.swift; sourceTree = "<group>"; };
-		D2B19DFA28DE99D500259187 /* TicTacToe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,7 @@
 		D2B19DDC28DE992F00259187 = {
 			isa = PBXGroup;
 			children = (
-				D2B19DE728DE992F00259187 /* Chart Tac Toe */,
+				D2B19DE728DE992F00259187 /* Chart-Tac-Toe */,
 				D2B19DE628DE992F00259187 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,25 +52,25 @@
 		D2B19DE628DE992F00259187 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2B19DE528DE992F00259187 /* Chart Tac Toe.app */,
+				D2B19DE528DE992F00259187 /* Chart-Tac-Toe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2B19DE728DE992F00259187 /* Chart Tac Toe */ = {
+		D2B19DE728DE992F00259187 /* Chart-Tac-Toe */ = {
 			isa = PBXGroup;
 			children = (
-				D2B19DE828DE992F00259187 /* ChartTacToeApp.swift */,
-				D2B19DEA28DE992F00259187 /* ContentView.swift */,
-				D2B19DF928DE99D500259187 /* XMark.swift */,
-				D2B19DFA28DE99D500259187 /* TicTacToe.swift */,
-				D2B19DF728DE99D400259187 /* Move.swift */,
-				D2B19DF828DE99D500259187 /* Player.swift */,
+				D2636ADE28FFD8EA009014EE /* ChartTacToeApp.swift */,
+				D2636ADF28FFD8EA009014EE /* ContentView.swift */,
+				D2636AE328FFD8EA009014EE /* Move.swift */,
+				D2636AE228FFD8EA009014EE /* Player.swift */,
+				D2636AE028FFD8EA009014EE /* TicTacToe.swift */,
+				D2636AE128FFD8EA009014EE /* XMark.swift */,
 				D2B19DEC28DE993000259187 /* Assets.xcassets */,
 				D2B19DEE28DE993000259187 /* ChartTacToe.entitlements */,
 				D2B19DEF28DE993000259187 /* Preview Content */,
 			);
-			path = "Chart Tac Toe";
+			path = "Chart-Tac-Toe";
 			sourceTree = "<group>";
 		};
 		D2B19DEF28DE993000259187 /* Preview Content */ = {
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2B19DE428DE992F00259187 /* Chart Tac Toe */ = {
+		D2B19DE428DE992F00259187 /* Chart-Tac-Toe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2B19DF428DE993000259187 /* Build configuration list for PBXNativeTarget "Chart Tac Toe" */;
+			buildConfigurationList = D2B19DF428DE993000259187 /* Build configuration list for PBXNativeTarget "Chart-Tac-Toe" */;
 			buildPhases = (
 				D2B19DE128DE992F00259187 /* Sources */,
 				D2B19DE228DE992F00259187 /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "Chart Tac Toe";
-			productName = "Chart Tac Toe";
-			productReference = D2B19DE528DE992F00259187 /* Chart Tac Toe.app */;
+			name = "Chart-Tac-Toe";
+			productName = "Chart-Tac-Toe";
+			productReference = D2B19DE528DE992F00259187 /* Chart-Tac-Toe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,10 +113,11 @@
 				TargetAttributes = {
 					D2B19DE428DE992F00259187 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
-			buildConfigurationList = D2B19DE028DE992F00259187 /* Build configuration list for PBXProject "Chart Tac Toe" */;
+			buildConfigurationList = D2B19DE028DE992F00259187 /* Build configuration list for PBXProject "Chart-Tac-Toe" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2B19DE428DE992F00259187 /* Chart Tac Toe */,
+				D2B19DE428DE992F00259187 /* Chart-Tac-Toe */,
 			);
 		};
 /* End PBXProject section */
@@ -151,12 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B19DFC28DE99D500259187 /* Player.swift in Sources */,
-				D2B19DEB28DE992F00259187 /* ContentView.swift in Sources */,
-				D2B19DFD28DE99D500259187 /* XMark.swift in Sources */,
-				D2B19DFB28DE99D500259187 /* Move.swift in Sources */,
-				D2B19DFE28DE99D500259187 /* TicTacToe.swift in Sources */,
-				D2B19DE928DE992F00259187 /* ChartTacToeApp.swift in Sources */,
+				D2636AE528FFD8EA009014EE /* ContentView.swift in Sources */,
+				D2636AE728FFD8EA009014EE /* XMark.swift in Sources */,
+				D2636AE628FFD8EA009014EE /* TicTacToe.swift in Sources */,
+				D2636AE828FFD8EA009014EE /* Player.swift in Sources */,
+				D2636AE928FFD8EA009014EE /* Move.swift in Sources */,
+				D2636AE428FFD8EA009014EE /* ChartTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +278,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Chart Tac Toe/ChartTacToe.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Chart-Tac-Toe/ChartTacToe.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chart Tac Toe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Chart-Tac-Toe/Preview Content\"";
 				DEVELOPMENT_TEAM = 2H866F22W7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -316,10 +317,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Chart Tac Toe/ChartTacToe.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Chart-Tac-Toe/ChartTacToe.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Chart Tac Toe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Chart-Tac-Toe/Preview Content\"";
 				DEVELOPMENT_TEAM = 2H866F22W7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -353,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2B19DE028DE992F00259187 /* Build configuration list for PBXProject "Chart Tac Toe" */ = {
+		D2B19DE028DE992F00259187 /* Build configuration list for PBXProject "Chart-Tac-Toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2B19DF228DE993000259187 /* Debug */,
@@ -362,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2B19DF428DE993000259187 /* Build configuration list for PBXNativeTarget "Chart Tac Toe" */ = {
+		D2B19DF428DE993000259187 /* Build configuration list for PBXNativeTarget "Chart-Tac-Toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2B19DF528DE993000259187 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  XMark.swift
-//  Chart Tac Toe
+//  Chart-Tac-Toe
 //
 //  Created by Apollo Zhu on 7/16/22.
 //
