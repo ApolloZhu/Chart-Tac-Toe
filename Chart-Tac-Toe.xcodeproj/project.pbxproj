@@ -13,9 +13,42 @@
 		D2636AE728FFD8EA009014EE /* XMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE128FFD8EA009014EE /* XMark.swift */; };
 		D2636AE828FFD8EA009014EE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE228FFD8EA009014EE /* Player.swift */; };
 		D2636AE928FFD8EA009014EE /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE328FFD8EA009014EE /* Move.swift */; };
+		D2636B0E28FFDBA1009014EE /* Chart-wTach-Toe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D2636B0D28FFDBA1009014EE /* Chart-wTach-Toe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2636B2228FFDBB1009014EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B19DF028DE993000259187 /* Preview Assets.xcassets */; };
+		D2636B2328FFDC0E009014EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B19DEC28DE993000259187 /* Assets.xcassets */; };
+		D2636B2428FFDC15009014EE /* XMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE128FFD8EA009014EE /* XMark.swift */; };
+		D2636B2528FFDC15009014EE /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE328FFD8EA009014EE /* Move.swift */; };
+		D2636B2628FFDC15009014EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636ADF28FFD8EA009014EE /* ContentView.swift */; };
+		D2636B2728FFDC15009014EE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE228FFD8EA009014EE /* Player.swift */; };
+		D2636B2828FFDC15009014EE /* ChartTacToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636ADE28FFD8EA009014EE /* ChartTacToeApp.swift */; };
+		D2636B2928FFDC15009014EE /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2636AE028FFD8EA009014EE /* TicTacToe.swift */; };
 		D2B19DED28DE993000259187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B19DEC28DE993000259187 /* Assets.xcassets */; };
 		D2B19DF128DE993000259187 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B19DF028DE993000259187 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2636B0F28FFDBA1009014EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B19DDD28DE992F00259187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2636B0C28FFDBA1009014EE;
+			remoteInfo = "Chart-wTach-Toe Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2636B1D28FFDBA3009014EE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D2636B0E28FFDBA1009014EE /* Chart-wTach-Toe Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D2636ADE28FFD8EA009014EE /* ChartTacToeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartTacToeApp.swift; path = "Chart-Tac-Toe.swiftpm/ChartTacToeApp.swift"; sourceTree = SOURCE_ROOT; };
@@ -24,6 +57,8 @@
 		D2636AE128FFD8EA009014EE /* XMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XMark.swift; path = "Chart-Tac-Toe.swiftpm/XMark.swift"; sourceTree = SOURCE_ROOT; };
 		D2636AE228FFD8EA009014EE /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "Chart-Tac-Toe.swiftpm/Player.swift"; sourceTree = SOURCE_ROOT; };
 		D2636AE328FFD8EA009014EE /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Move.swift; path = "Chart-Tac-Toe.swiftpm/Move.swift"; sourceTree = SOURCE_ROOT; };
+		D2636B0828FFDBA1009014EE /* Chart-wTach-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart-wTach-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2636B0D28FFDBA1009014EE /* Chart-wTach-Toe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart-wTach-Toe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B19DE528DE992F00259187 /* Chart-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chart-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B19DEC28DE993000259187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2B19DEE28DE993000259187 /* ChartTacToe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChartTacToe.entitlements; sourceTree = "<group>"; };
@@ -31,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D2636B0A28FFDBA1009014EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2B19DE228DE992F00259187 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				D2B19DE528DE992F00259187 /* Chart-Tac-Toe.app */,
+				D2636B0828FFDBA1009014EE /* Chart-wTach-Toe.app */,
+				D2636B0D28FFDBA1009014EE /* Chart-wTach-Toe Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +128,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D2636B0728FFDBA1009014EE /* Chart-wTach-Toe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2636B2128FFDBA3009014EE /* Build configuration list for PBXNativeTarget "Chart-wTach-Toe" */;
+			buildPhases = (
+				D2636B0628FFDBA1009014EE /* Resources */,
+				D2636B1D28FFDBA3009014EE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2636B1028FFDBA1009014EE /* PBXTargetDependency */,
+			);
+			name = "Chart-wTach-Toe";
+			productName = "Chart-wTach-Toe";
+			productReference = D2636B0828FFDBA1009014EE /* Chart-wTach-Toe.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D2636B0C28FFDBA1009014EE /* Chart-wTach-Toe Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2636B2028FFDBA3009014EE /* Build configuration list for PBXNativeTarget "Chart-wTach-Toe Watch App" */;
+			buildPhases = (
+				D2636B0928FFDBA1009014EE /* Sources */,
+				D2636B0A28FFDBA1009014EE /* Frameworks */,
+				D2636B0B28FFDBA1009014EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chart-wTach-Toe Watch App";
+			productName = "Chart-wTach-Toe Watch App";
+			productReference = D2636B0D28FFDBA1009014EE /* Chart-wTach-Toe Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D2B19DE428DE992F00259187 /* Chart-Tac-Toe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2B19DF428DE993000259187 /* Build configuration list for PBXNativeTarget "Chart-Tac-Toe" */;
@@ -111,6 +189,12 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					D2636B0728FFDBA1009014EE = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D2636B0C28FFDBA1009014EE = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					D2B19DE428DE992F00259187 = {
 						CreatedOnToolsVersion = 14.1;
 						LastSwiftMigration = 1410;
@@ -131,11 +215,29 @@
 			projectRoot = "";
 			targets = (
 				D2B19DE428DE992F00259187 /* Chart-Tac-Toe */,
+				D2636B0728FFDBA1009014EE /* Chart-wTach-Toe */,
+				D2636B0C28FFDBA1009014EE /* Chart-wTach-Toe Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D2636B0628FFDBA1009014EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2636B0B28FFDBA1009014EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2636B2228FFDBB1009014EE /* Preview Assets.xcassets in Resources */,
+				D2636B2328FFDC0E009014EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2B19DE328DE992F00259187 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,6 +250,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D2636B0928FFDBA1009014EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2636B2528FFDC15009014EE /* Move.swift in Sources */,
+				D2636B2628FFDC15009014EE /* ContentView.swift in Sources */,
+				D2636B2928FFDC15009014EE /* TicTacToe.swift in Sources */,
+				D2636B2428FFDC15009014EE /* XMark.swift in Sources */,
+				D2636B2828FFDC15009014EE /* ChartTacToeApp.swift in Sources */,
+				D2636B2728FFDC15009014EE /* Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2B19DE128DE992F00259187 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,7 +278,109 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D2636B1028FFDBA1009014EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2636B0C28FFDBA1009014EE /* Chart-wTach-Toe Watch App */;
+			targetProxy = D2636B0F28FFDBA1009014EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D2636B1B28FFDBA3009014EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H866F22W7;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chart-Tac-Toe";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ApolloZhu.Chart-wTach-Toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2636B1C28FFDBA3009014EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2H866F22W7;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chart-Tac-Toe";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ApolloZhu.Chart-wTach-Toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2636B1E28FFDBA3009014EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chart-Tac-Toe/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H866F22W7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chart-Tac-Toe";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ApolloZhu.Chart-wTach-Toe.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		D2636B1F28FFDBA3009014EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chart-Tac-Toe/Preview Content\"";
+				DEVELOPMENT_TEAM = 2H866F22W7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chart-Tac-Toe";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.ApolloZhu.Chart-wTach-Toe.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 		D2B19DF228DE993000259187 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -354,6 +571,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D2636B2028FFDBA3009014EE /* Build configuration list for PBXNativeTarget "Chart-wTach-Toe Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2636B1E28FFDBA3009014EE /* Debug */,
+				D2636B1F28FFDBA3009014EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2636B2128FFDBA3009014EE /* Build configuration list for PBXNativeTarget "Chart-wTach-Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2636B1B28FFDBA3009014EE /* Debug */,
+				D2636B1C28FFDBA3009014EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D2B19DE028DE992F00259187 /* Build configuration list for PBXProject "Chart-Tac-Toe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

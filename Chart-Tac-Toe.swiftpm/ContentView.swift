@@ -60,8 +60,10 @@ struct ContentView: View {
         Color.clear
           .contentShape(Rectangle())
           .onTapGesture { location in
-            if let (x, y): (Double, Double) = chart.value(at: location) {
-              place(atX: Int(x), y: Int(y))
+            if let (rawX, rawY): (Double, Double) = chart.value(at: location) {
+              let x = min(max(0, Int(rawX)), 2)
+              let y = min(max(0, Int(rawY)), 2)
+              place(atX: x, y: y)
             }
           }
       }
@@ -119,6 +121,18 @@ struct ContentView: View {
   }
   
   // MARK: - Other UI Controls
+  #if os(watchOS)
+  var navigationTitle: Text {
+    switch game.state {
+    case .draw:
+      return Text("Draw")
+    case .playing(nextMoveBy: let player):
+      return Text("Next: \(player.symbol)")
+    case .won(winner: let winner):
+      return Text("Winner: \(winner.symbol)")
+    }
+  }
+  #else
   @ViewBuilder
   var callout: some View {
     switch game.state {
@@ -152,8 +166,27 @@ struct ContentView: View {
         .foregroundColor(player.color)
     }
   }
+  #endif
+  
+  var resetButton: some View {
+    Button("Reset Chart") {
+      game.reset()
+    }
+    .disabled(game.moves.isEmpty)
+  }
   
   var body: some View {
+    #if os(watchOS)
+    NavigationStack {
+      ScrollView {
+        VStack {
+          ticTacToe
+          resetButton
+        }
+      }
+      .navigationTitle(navigationTitle)
+    }
+    #else
     NavigationStack {
       VStack(alignment: .leading) {
         callout
@@ -161,14 +194,12 @@ struct ContentView: View {
         ticTacToe
       }
       .toolbar {
-        Button("Reset Chart") {
-          game.reset()
-        }
-        .disabled(game.moves.isEmpty)
+        resetButton
       }
       .padding()
       .navigationTitle("Tic Tac Toe")
     }
+    #endif
   }
 }
 
@@ -179,6 +210,15 @@ extension Player {
     case .second: return .green
     }
   }
+  
+  #if os(watchOS)
+  var symbol: String {
+    switch self {
+    case .first: return "⭕️"
+    case .second: return "❌"
+    }
+  }
+  #endif
 }
 
 struct ContentView_Previews: PreviewProvider {
